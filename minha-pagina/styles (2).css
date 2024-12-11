@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    width: 80%;
+    margin: auto;
+}
+
+.tab-links {
+    display: flex;
+    background-color: #f1f1f1;
+}
+
+.tab-link {
+    flex: 1;
+    padding: 14px;
+    text-align: center;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.tab-link.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    border-top: 1px solid #ddd;
+    padding: 20px;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+header {
+    background-color: hsl(170, 76%, 23%);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+footer {
+    background-color: hsl(170, 76%, 23%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top:500px;
+    width: 100%;
+    
+}
+li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.imagem-direita{
+    float:right;
+}
